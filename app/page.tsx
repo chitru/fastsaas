@@ -60,7 +60,9 @@ export default function Home() {
   return (
     <main className="p-24 flex justify-center max-w-5xl m-auto">
       <div>
-        <h1 className="text-center mb-20 text-3xl font-bold tracking-tighter">FastSaaS Dev kit</h1>
+        <h1 className="text-center mb-20 text-3xl font-bold tracking-tighter">
+          FastSaaS Dev kit
+        </h1>
         <div className="pb-10">
           <NavigationMenu>
             <NavigationMenuList>
@@ -145,6 +147,11 @@ export default function Home() {
         <h6 className="text-2xl font-bold tracking-tighter pb-5">
           This is heading
         </h6>
+        <div>
+          <Link href="/login">Login</Link>
+          <Link href="/register">Register</Link>
+          <Link href="/reset">Reset</Link>
+        </div>
         <p className="text-xl pb-5">
           This is text-xl. Lorem ipsum dolor sit amet consectetur adipisicing
           elit. Nesciunt inventore ratione delectus eveniet, voluptates harum.
